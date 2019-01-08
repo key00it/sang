@@ -1009,3 +1009,23 @@ small {
 	text-decoration: underline;
 }
 
+.up {
+	display: scroll;	
+	position:fixed;
+	bottom: 50%;
+	right: 5px;
+	color: #fff;
+	opacity: 0.5;
+}
+
+.up:hover {
+	opacity: 1;
+}
+
+.up:hover img {
+	width: 30px;
+}
+
+img:hover {
+	opacity: 0.7;
+}
